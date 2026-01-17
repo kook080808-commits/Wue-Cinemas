@@ -10,6 +10,9 @@
     height: 100%;
     margin: 0 170px;
 }
+.body{
+    width: 1440px;
+}
     /* <!-- ================= navbar start ================= --> */
 .navbar{
     width: 1440px;
@@ -92,7 +95,51 @@
     width: 1440px;
     height: 640px;
     margin: 0 auto;
-    padding: 0 15px;
+    position: relative;
+}
+.header_img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.header_parda1{
+    width: 100%;
+    height: 100%;
+    background-color: #070F19BF;
+    position: absolute;
+}
+.header_parda2{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+}
+.header_parda_title{
+    width: 600px;
+    height: 65px;
+    top: 363px;
+    font-size: 64px;
+    font-weight: 700;
+    color: white;
+}
+.header_parda_text{
+    width: 570px;
+    height: 95px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #C8C8C8;
+}
+.header_parda_btn{
+    width: 165px;
+    height: 45px;
+    border: 1px solid #00000033;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #F18128;
 }
     /* <!-- ================= header end ================= --> */
 
