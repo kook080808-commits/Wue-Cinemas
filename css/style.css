@@ -11,13 +11,10 @@
     margin: 0 170px;
     padding: 0 15px;
 }
-.body{
-    width: 1440px;
-    background-color: #000000;
-}
+
     /* <!-- ================= navbar start ================= --> */
 .navbar{
-    width: 1440px;
+    width: 100%;
     height: 180px;
     margin: 0 auto;
     background-color: black;
@@ -25,7 +22,7 @@
 }
     /* <!-- ================= navbar top start ================= --> */
 .navbar_top{
-    width: 1440px;
+    width: 100%;
     height: 80px;
     background: linear-gradient(90.09deg, #0031AF 0%, #BF7204 97.52%, #C27500 100%, #C27500 100%);
     color: white;
@@ -43,7 +40,7 @@
 
     /* <!-- ================= navbar bottom start ================= --> */
 .navbar_bottom{
-    width: 1440px;
+    width: 100%;
     height: 100px;
     background: linear-gradient(270deg, rgba(0, 0, 0, 0.822) 0%, rgba(0, 0, 0, 0.863) 100%);
     position: fixed;
@@ -97,7 +94,7 @@
 
     /* <!-- ================= header start ================= --> */
 .header{
-    width: 1440px;
+    width: 100%;
     height: 640px;
     margin: 0 auto;
     position: relative;
@@ -115,7 +112,7 @@
 }
 .header_parda2{
     position: absolute;
-    width: 100%;
+    width: 1100px;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -150,7 +147,7 @@
 
     /* <!-- ================= main start ================= --> */
 .main{
-    width: 1440px;
+    width: 100%;
     height: 2530px;
     background-color: #040D1F;
     margin: 0 auto;
@@ -231,7 +228,7 @@
 
     /* <!-- ================= main Widow start ================= --> */
 .main_marvel_box{
-    width: 1440px;
+    width: 100%;
     height: 500px;
     margin-top: 100px;
     position: relative;
@@ -440,7 +437,7 @@ height: 127px;
 
     /* <!-- ================= footer start ================= --> */
 .footer{
-    width: 1440px;
+    width: 100%;
     height: 80px;
     background: linear-gradient(90deg, #FF8C30 0%, #9F4700 100%);
     margin: 0 auto;
